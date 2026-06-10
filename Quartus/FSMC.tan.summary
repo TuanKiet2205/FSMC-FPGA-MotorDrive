@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.831 ns
+From           : NE1
+To             : pwm_duty[1]
+From Clock     : --
+To Clock       : NWE
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 15.381 ns
+From           : addr_reg[11]
+To             : DATA[6]
+From Clock     : NADV
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 8.697 ns
+From           : NE1
+To             : DATA[6]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.994 ns
+From           : NE1
+To             : addr_reg[0]
+From Clock     : --
+To Clock       : NADV
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLK_20M'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 100.97 MHz ( period = 9.904 ns )
+From           : pwm_cnt[1]
+To             : pwm_cnt[11]
+From Clock     : CLK_20M
+To Clock       : CLK_20M
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
